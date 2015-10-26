@@ -5,7 +5,7 @@ class CreateRegistrations < ActiveRecord::Migration
       t.string :lastname
       t.string :email
       t.string :gender
-      t.int :phonenumber
+      t.integer :phonenumber
       t.string :city
       t.string :password
       t.string :role

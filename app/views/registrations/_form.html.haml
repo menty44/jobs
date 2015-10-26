@@ -1,0 +1,11 @@
+= simple_form_for(@registration, html: {class: 'form-horizontal'}) do |f|
+  = f.input :firstname, label: "First Name", input_html: {class: "dropdown-toggle" }
+  = f.input :lastname, label: "Last Name", input_html: { class: "form-control" }
+  = f.input :email, label: "Email", input_html: { class: "form-control" }
+  = f.input :gender, label: "Gender", input_html: { class: "form-control"}
+  = f.input :phonenumber, label: "Phone Number", input_html: { class: "form-control" }
+  = f.input :city, label: "City", input_html: { class: "form-control" }
+  = f.input :password, label: " Password", input_html: { class: "form-control"}
+  = f.input :role, label: "Role", input_html: { class: "form-control" }
+  %br/
+  =f.button :submit 

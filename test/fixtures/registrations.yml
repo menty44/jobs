@@ -5,7 +5,7 @@ one:
   lastname: MyString
   email: MyString
   gender: MyString
-  phonenumber: 
+  phonenumber: 1
   city: MyString
   password: MyString
   role: MyString
@@ -15,7 +15,7 @@ two:
   lastname: MyString
   email: MyString
   gender: MyString
-  phonenumber: 
+  phonenumber: 1
   city: MyString
   password: MyString
   role: MyString

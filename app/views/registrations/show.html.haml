@@ -1,0 +1,16 @@
+#jobs
+  .job
+    %p= @registration.firstname
+    %p= @registration.lastname
+    %p= @registration.email
+    %p= @registration.gender
+    %p= @registration.phonenumber
+    %p= @registration.city
+    %p= @registration.password
+    %p= @registration.role
+    / %button.btn.btn-default= link_to "Apply for Job", @registration.url
+
+#links	
+  = link_to "Back", root_path, class: "btn btn-sm btn-default"
+  = link_to "Edit", edit_registration_path(@registration), class: "btn btn-sm btn-default"
+  = link_to "Delete", registration_path(@registration), method: :delete, data: { confirm: "Are you sure you want to delete?" }, class: "btn btn-sm btn-default"
